@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.jumbotron {
+    background-color: #fa95e9;
+    color: white;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.button-container a .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #b97f9f;
+    transition: background-color 0.3s ease;
+}
+
+.button-container a .button:hover {
+    background-color: #bb5b90;
+}
